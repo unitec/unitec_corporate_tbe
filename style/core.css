@@ -1,0 +1,171 @@
+/******** Core ********/
+a {
+    color: #E06830;
+    text-decoration: none;
+}
+
+/** Borders around forms **/
+.mform fieldset {
+    border-color: #E06830;
+}
+
+/** Tables on admin pages **/
+.path-admin .generaltable tr {
+    border-top: 1px solid #E06830;
+    border-bottom: 1px solid #E06830;
+}
+
+/******** Blocks ********/
+/** Fonts in block header **/
+.block .header h2 {
+    color: #FFFFFF;
+}
+
+/** Borders and backgrounds **/
+.block {
+    border-color: #E06830;
+}
+
+.block .header {
+    background-color: #E06830;
+}
+
+.calendartable .weekdays {
+    border-top: 2px solid #E06830;
+    border-bottom: 2px solid #E06830;
+}
+
+/******** Course ********/
+/**  Highlighted course box **/
+.course-content .current {
+    background-color: #E06830;
+    border-color: #E06830;
+    color: #FFFFFF;
+}
+
+/** Formatting for hidden course box **/
+.course-content .hidden {
+    border-color: #E6E6E6;
+    color: #CCCCCC;
+}
+
+/******** Custom menu ********/
+/* ---------------- Custommenu ---------------- */
+
+/*cutom menu */
+#custommenu .yui3-menuitem-active {background-color:#97607D;}
+
+#custommenu {
+    background-color: #4C4D4F;
+    border: 1px #FFFFFF solid;
+}
+
+.yui3-skin-sam #page .yui3-menu-label,
+.yui3-skin-sam #page .yui3-menuitem-content  {
+    color: #FFFFFF;
+}
+
+.custom_menu_submenu .yui3-menu-label,
+.custom_menu_submenu .yui3-menuitem-content {
+    color: #000 !important;
+}
+
+.yui3-skin-sam #page .yui3-menu-label.yui3-menu-label-active,
+.yui3-skin-sam #page .yui3-menu-label.yui3-menu-label-menuvisible,
+.yui3-skin-sam #page .yui3-menuitem-active .yui3-menuitem-content {
+    color: #000;
+    background-color: #97607D;
+    border: 1px solid #B3B3B3 !important;
+}
+
+.yui3-skin-sam #page .yui3-menu-content,
+.yui3-skin-sam #page .yui3-menu-content,
+.yui3-skin-sam #page .yui3-menu .yui3-menu .yui3-menu-content,
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label,
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menuitem-content  {
+    border: none !important;
+}
+
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
+    border-color:transparent;
+}
+
+#page .custom_menu_submenu {
+    border: 1px solid #E06830 !important;
+    box-shadow: 2px 2px 2px #CCCCCC;
+    background: #FFFFFF;
+}
+
+/******** Dock ********/
+#dock {
+    background-color: #E06830;
+}
+
+#dock .dockedtitle h2 {
+    color: #FFFFFF;
+}
+
+#dockeditempanel .dockeditempanel_content {
+    border: 1px solid #E06830;
+}
+
+#dockeditempanel .dockeditempanel_hd {
+    background-color: #E06830;
+}
+
+#dockeditempanel .dockeditempanel_hd h2 {
+    color: #FFFFFF;
+}
+
+/******** Modules ********/
+/** Tab trees in all modules **/
+.tabtree li {
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.tabtree ul {
+    border-bottom: 2px solid #000000;
+}
+
+/* Forum table */
+.forumheaderlist thead {
+    background-color: #E06830;
+    color: #FFFFFF;
+}
+
+/* Forum posts */
+.forumpost {
+    border-color: #E06830;
+}
+
+.forumpost .header {
+    background-color: #E06830;
+    color: #FFFFFF;
+}
+
+.forumpost .header a {
+    color: #FFFFFF;
+}
+
+/** Assignments **/
+/* Attempts table */
+#attempts tr {
+    border-top: 1px solid #E06830;
+    border-bottom: 1px solid #E06830;
+}
+
+/******** Navbar ********/
+.navbar {
+    color: #E06830;
+}
+
+.navbar a {
+    color: #E06830;
+}
+
+.navbar a:hover {
+    color: #97607D;
+}
