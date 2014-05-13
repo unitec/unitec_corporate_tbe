@@ -1,0 +1,232 @@
+/* Whole site */
+
+body {
+    border-top: 3px solid #E06830;
+    background-image: none;
+}
+
+h1#title {
+    color: #E06830;
+}
+
+a {
+    color: blue;
+}
+
+a:hover, a:focus {
+    color: blue;
+    text-decoration: underline;
+}
+
+a, a:visited {
+    color: blue;
+}
+
+#page-header {
+    background: url([[pix:theme|unitec/banner_top_left]]) no-repeat top left;
+    border-bottom: none;
+    padding-left: 240px;
+}
+
+#page-site-index h2.headingblock:before {
+    color: #E06830;
+}
+
+.back-to-top:hover {
+    color: #97607d;
+    text-decoration: none;
+}
+
+.back-to-top {
+    color: #E06830;
+}
+
+a .icon-stack, a .icon-spin {
+    color: #E06830;
+}
+
+a:hover .icon-stack, a:hover .icon-spin {
+    color: #97607d;
+}
+
+a.website .icon-stack:hover, a.icon-sign-blank:focus {
+    color: #97607d;
+}
+
+a:visited .icon-stack, a:visited .icon-spin {
+    color: #E06830;
+}
+
+.socials img:hover {
+-webkit-box-shadow: px 0px 10px 0px #E06830;
+-moz-box-shadow: 0px 0px 10px 0px #E06830;
+box-shadow: 0px 0px 10px 0px #E06830;
+}
+
+.container-fluid {
+    max-width: 4200px;
+}
+
+.loginfailures {
+    color: #FFFFFF;
+}
+
+.loginfailures a {
+    color: #FFFFFF;
+}
+
+#socialheading {
+    font-size: 0.9em;
+    line-height: 15px;
+}
+
+.loginheading {
+    font-family: "Oswald",sans-serif;
+    font-size: 0.9em;
+    line-height: 15px;
+    color: #666666;
+    letter-spacing: 0.2em;
+    margin: 8px 0 0;
+    padding: 0;
+    text-align: right;
+}
+
+/* Navigation and custom menu */
+
+.navbar-text {
+    line-height: 14px;
+}
+
+.navbar .logininfo {
+    display: none;
+}
+
+.navbar-inner {
+    border-top: 1px solid #E06830 !important;
+    border-bottom: 1px solid #E06830 !important;
+    border-left: none !important;
+    border-right: none !important;
+    background-color: #E06830 !important;
+}
+
+.navbar .nav > li > a:hover {
+    background: #97607d !important;
+}
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover, .navbar .nav .active > a:focus, .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    background: #97607d !important;
+    color: #fff;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #97607d;
+    background-image: -moz-linear-gradient(top, #97607d, #E06830);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#97607d), to(#E06830));
+    background-image: -webkit-linear-gradient(top, #97607d, #E06830);
+    background-image: -o-linear-gradient(top, #97607d, #E06830);
+    background-image: linear-gradient(to bottom, #97607d, #E06830);
+}
+
+.navbar .nav > li > a {
+    color: #fff;
+    text-shadow: none;
+    border-left: 1px solid #E06830;
+}
+
+.navbar .nav {
+    border-right: 1px solid #E06830;
+}
+
+.nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
+    color: #FFFFFF;
+}
+
+.open>.dropdown-menu {
+    background-color: #E06830;
+}
+
+.open > .dropdown-menu {
+    overflow-y: visible;
+    max-height: 4000px;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    background-color: #E06830;
+}
+
+/* Slider */
+
+.da-slider {
+    border-top: 4px solid #E06830;
+    border-bottom: 4px solid #E06830;
+}
+
+.da-slide h2 {
+    color: #E06830;
+}
+
+/* Blocks */
+
+.block .header .title h2:before {
+    color: #E06830;
+}
+
+/* Footer */
+
+#page-footer {
+background: #000000;
+color: #DDDDDD;
+border-top: 3px solid #E06830;
+}
+
+/* Courses */
+
+.breadcrumb-button input[type="submit"] {
+    background: #E06830;
+}
+
+.breadcrumb-button input[type="submit"]:hover {
+    background: #97607d;
+}
+
+.course-content ul.topics li.section.main.clearfix.current {
+box-shadow: 0px 0px 10px #E06830;
+}
+
+.path-course-view .completionprogress {
+    z-index: 990;
+}
+
+.course-content .single-section .section-navigation .mdl-left a {
+    font-size: 0.8em;
+}
+
+.course-content .single-section .section-navigation .mdl-right a {
+    font-size: 0.8em;
+}
+
+.course-content .single-section .section-navigation .title {
+    font-size: 1.5em;
+}
+
+.nav-tabs>li>a:hover {
+    background-color: #97607d;
+}
+
+.nav-tabs>li>a {
+    background-color: #E06830;
+}
+
+.forumpost .subject {
+    color: #E06830;
+}
+
+.forumpost .picture img {
+box-shadow: 0px 0px 3px #E06830;
+}
+
+#page-mod-quiz-edit .questionbankwindow.block div.header {
+    background: #E06830;
+}
